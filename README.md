@@ -2,7 +2,14 @@
 ```
 基于react-native官方组件封装的瀑布流组件
 ```
-Preview
+Preview  
+
+此代码我使用过基本心得。
+苹果上可能会出bug  因为是由两个   Scrollview  分别计算左右高度插入，曾出现bug左右计算错误
+其中我曾将源码做了修改，加入index属性 根据index来判断应该往哪个View插入。
+现目前也只能这样实现。
+
+有疑问 有需要 联系我 邮箱 766003097@qq.com
 
 ![iOS](https://upload-images.jianshu.io/upload_images/5855162-678fa52f270a341a.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/475)
 
